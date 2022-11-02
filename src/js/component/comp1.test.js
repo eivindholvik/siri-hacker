@@ -1,3 +1,5 @@
+import maths from "./comp1";
+
 test("Some test", () => {
-  expect(1 + 2).toEqual(3);
+  expect(maths(1, 2)).toEqual(3);
 });
